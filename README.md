@@ -20,6 +20,13 @@ make install
 
 The client is now available as `toggl` in `~/local/bin`, therefore in `$PATH`.
 
+### If you are using Arch Linux...
+
+Just make:
+```sh
+$ yaourt -S toggl-cli
+```
+
 ## Setup
 
 Requires an environment variable `TOGGL_KEY` set with the API key for the present user.
